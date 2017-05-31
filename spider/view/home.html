@@ -1,0 +1,98 @@
+<div class=""> <div class="container">
+    
+    {{fromService }}
+        <!--
+        {{status | json}}
+<div class="row" ng-init="getAllPostData()" >
+        </div>   
+-->
+        <div class="spider-main">
+            <form action="">
+                <!--
+                <div class="spider-banner">
+
+                    <div class="col-md-3 col-md-offset-2">
+
+                        <div ng-repeat="x in status | limitTo:1">
+                            <a href="#" class="spider-btn-left spider-left1 bgunsuccess_color" ng-class="{ 'bgsuccess_color': x.code == 200 }" target="_blank">status</a>
+        </div>
+                                  <div ng-repeat="x in product | limitTo:1">
+                            <a href="#" class="spider-btn-left spider-left1 bgunsuccess_color" ng-class="{ 'bgsuccess_color': x.code == 400 }" target="_blank">product</a>
+        </div>
+                    </div>
+                    <div class="spider-center col-md-2">
+                        <p class="box-i-left"><i class="fa fa-angle-left" aria-hidden="true"></i></p>
+                        <p class="box-i-right"><i class="fa fa-angle-right" aria-hidden="true"></i></p>
+                        <p class="box-i-box-left boxleft-1 pull-left"></p>
+                        <p class="box-i-box-right boxright-1 pull-right"></p>
+                        <div class="clearfix"></div>
+                        <p class="box-i-box-left boxleft-2 pull-left"></p>
+                        <p class="box-i-box-right boxright-2 pull-right"></p>
+                        <div class="clearfix"></div>
+                        <p class="box-i-box-left boxleft-3 pull-left"></p>
+                        <p class="box-i-box-right boxright-3 pull-right"></p>
+                        <div class="clearfix"></div>
+                        <p class="box-i-box-left boxleft-4 pull-left"></p>
+                        <p class="box-i-box-right boxright-4 pull-right"></p>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="" class="spider-btn-right spider-right1 bgunsuccess_color" target="_blank">btn5</a>
+                        <a href="" class="spider-btn-right spider-right2 bgunsuccess_color" target="_blank">btn6</a>
+                        <a href="" class="spider-btn-right spider-right3 bgunsuccess_color" target="_blank">btn7</a>
+                        <a href="" class="spider-btn-right spider-right4 bgunsuccess_color" target="_blank">btn8</a>
+                    </div>
+
+                </div>
+-->
+
+            </form>
+
+            <div class="col-md-4"></div>
+            <div class="col-md-4 text-center">
+                <!--                <div class="" ng-repeat="x in status ">-->
+
+                <!--                    <a href="#" class="spider-btn spider-btn1" ng-class="{ 'bgsuccess_color': x.code == 200 }" target="_blank">btn1-->
+                <a href="#" class="spider-btn spider-btn1" ng-class='statusClassIsIt(product.code)' target="_blank">Product  </a>
+                    <a ui-sref="passport_server"  class="spider-btn spider-btn2" ng-class='statusClassIsIt(passport.code)' target="_blank">Passport Server  </a>
+                    <a href="#" class="spider-btn spider-btn3 bgsuccess_color0" ng-class='statusClassIsIt(address1.code)' target="_blank">address1 </a>
+                    <a  ui-sref="EurekaServer" class="spider-btn spider-btn4" ng-class='statusClassIsIt(server.code)'>EurekaServer </a>
+            
+                    
+                  
+                <!--                </div>-->
+                <!--
+                <div class="" ng-repeat="x in product "> <a href="#" class="spider-btn spider-btn2" ng-class="{ 'bgsuccess_color': x.code == 200,'bgsuccess_color0': x.code !== 200, }" target="_blank">btn2</a></div>
+                <div class="" ng-repeat="x in adhar"> <a href="#" class="spider-btn spider-btn3" ng-class="{ 'bgsuccess_color': x.code == 400,'bgsuccess_color0': x.code !== 200, }" target="_blank" target="_blank">btn3</a></div>
+                <div class="" ng-repeat="x in server"> <a href="#" class="spider-btn spider-btn4" ng-class='statusClassIsIt(x.code)' target="_blank">btn4</a></div>
+-->
+
+
+                <!--
+                
+               <a href="" target="_blank">
+-->
+                <div class="spider-img0">
+               <img class="img-responsive" src="images/Spider2.png" alt="spider"></div>
+<div class="spider"><a href="#" target="_blank" >Spider</a></div>
+                <!--                </a>-->
+                
+                
+                  <a href="#" class="spider-btn spider-btn5" ng-class='statusClassIsIt(shoppingcart.code)' target="_blank">shoppingcart  </a>
+                  <a href="#" class="spider-btn spider-btn6" ng-class='statusClassIsIt(stock.code)' target="_blank">stock  </a>
+                  <a href="#" class="spider-btn spider-btn7" ng-class='statusClassIsIt(shop.code)' target="_blank">shop  </a>
+                  <a ui-sref="EurekaServer" class="spider-btn spider-btn8" ng-class='statusClassIsIt(productservice.code)' target="_blank">product-service</a>
+                    
+                
+                
+                <!--
+                <div class="" ng-repeat="x in shoppingcart"> <a href="#" class="spider-btn spider-btn5"ng-class='statusClassIsIt(x.code)' target="_blank">btn5</a></div>
+                <div class="" ng-repeat="x in stock"> <a href="#" class="spider-btn spider-btn6" ng-class="{ 'bgsuccess_color': x.code == 400,'bgsuccess_color0': x.code !== 200, }" target="_blank">btn6</a></div>
+                <div class="" ng-repeat="x in shop"> <a href="#" class="spider-btn spider-btn7" ng-class="{ 'bgsuccess_color': x.code == 200 }" target="_blank">btn7</a></div>
+                <div class="" ng-repeat="x in product"> <a href="#" class="spider-btn spider-btn8" ng-class="{ 'bgsuccess_color': x.code == 200 }" target="_blank">btn8</a>
+                </div>
+                </div>
+                <div class="col-md-4"></div>
+-->
+
+            </div>
+        </div></div>

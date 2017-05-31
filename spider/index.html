@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Spider</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="fonts/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/angular.min.js"></script>
+    <script src="js/angular-ui-router.min.js"></script>
+    <script src="lib/main.js"></script>
+      <script src="lib/SpiderServices.js"></script>
+    <script src="lib/spidercontrollor.js"></script>
+  
+</head>
+
+<body ng-app="myApp">
+    <div ui-view></div>
+</body>
+
+</html>
+<!--
+<div ng-switch on="ctrl.loggedInUser.FirstName == null || ctrl.loggedInUser.FirstName == undefined || ctrl.loggedInUser.FirstName == ''">
+    <h3 ng-switch-when="true">Please log in.</h3>
+    <h3 ng-switch-when="false">{{ctrl.loggedInUser.FirstName + " " + ctrl.loggedInUser.LastName + " is logged in."}}</h3>
+</div>-->
